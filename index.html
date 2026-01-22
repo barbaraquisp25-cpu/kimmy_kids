@@ -1,1 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kimmy 💕 - Moda para niñas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffe6f0; /* fondo rosado claro */
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            padding: 20px;
+            background-color: #ffc0cb;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .subtitle {
+            margin-top: 5px;
+            color: #ff66b2;
+        }
+        .stars {
+            color: gold;
+            font-size: 1.2em;
+        }
+        .product {
+            margin: 20px auto;
+            max-width: 600px;
+            background-color: #fff0f5;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        img, video {
+            max-width: 100%;
+            border-radius: 10px;
+            transition: transform 0.5s;
+        }
+        img:hover, video:hover {
+            transform: scale(1.05);
+        }
+        .price {
+            font-size: 1.5em;
+            color: #ff3399;
+            margin: 10px 0;
+        }
+        select, input[type=number] {
+            padding: 5px;
+            margin: 5px;
+        }
+        button {
+            background-color: #ff66b2;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .social-icons img {
+            width: 40px;
+            margin: 5px;
+            cursor: pointer;
+        }
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #ffc0cb;
+        }
+    </style>
+</head>
+<body>
+
+<audio autoplay loop>
+    <source src="assets/music/suave.mp3" type="audio/mpeg">
+</audio>
+
+<header>
+    <h1>Kimmy 💕</h1>
+    <p class="subtitle">“Vistiendo sueños y sonrisas de niñas”</p>
+</header>
+
+<section class="product">
+    <img src="assets/images/vestido1.jpg" alt="Vestido Kimmy">
+    <video controls src="assets/videos/pasarela1.mp4"></video>
+    <div class="stars">★★★★★</div>
+    <p>Hermoso vestido para niñas, ideal para fiestas y días especiales.</p>
+    
+    <p><strong>Especificaciones:</strong> Algodón 100%, suave y cómodo.</p>
+    
+    <p class="price">$29.99</p>
+
+    <label for="color">Color:</label>
+    <select id="color">
+        <option>Rosa</option>
+        <option>Blanco</option>
+        <option>Morado</option>
+    </select>
+
+    <label for="talla">Talla:</label>
+    <select id="talla">
+        <option>2-3 años</option>
+        <option>4-5 años</option>
+        <option>6-7 años</option>
+    </select>
+
+    <label for="cantidad">Cantidad:</label>
+    <input type="number" id="cantidad" value="1" min="1">
+
+    <button>Agregar al carrito</button>
+
+    <div class="social-icons">
+        <img src="assets/images/facebook.png" alt="Facebook">
+        <img src="assets/images/whatsapp.png" alt="WhatsApp">
+        <img src="assets/images/instagram.png" alt="Instagram">
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Kimmy 💕 - Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
 
